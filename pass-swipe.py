@@ -1,4 +1,4 @@
-import os, re, sqlite3,win32crypt
+import os, re, sqlite3, win32crypt
 
 # Close currently running Chrome and Connect to sqlite3 db
 browserExe = "chrome.exe"
