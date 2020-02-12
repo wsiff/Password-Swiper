@@ -9,3 +9,5 @@ python pass-swipe.py
 
 # Use
 Pretty straight forward, just pip the required modules and run.
+You can, however, use pyinstaller and get an exe.
+Saved passwords land in Desktop called 'IceCream.txt'
