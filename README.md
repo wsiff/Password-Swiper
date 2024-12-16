@@ -15,6 +15,7 @@ Ensure you have Python 3.x installed on your system.
 
 1. Clone the repository or download the script.
 2. Install the required dependencies by running:
+   
    ```bash
    pip install -r requirements.txt
    ```
