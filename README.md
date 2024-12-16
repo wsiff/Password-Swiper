@@ -1,13 +1,29 @@
-# Password-Swiper(Windows)
-Python Script to get Chrome saved passwords and WiFi passwords
+# Password-Swiper (Windows)
 
-# Setup Python 3.x
-pip install -r requirments.txt
+**Password-Swiper** is a Python script designed to retrieve saved Chrome passwords and WiFi passwords on Windows machines.
 
-# Run 
-python pass-swipe.py
+## Features
+- Extracts saved passwords from Chrome.
+- Retrieves stored WiFi passwords.
+- Outputs results to a file named `IceCream.txt` on the Desktop.
 
-# Use
-Pretty straight forward, just pip the required modules and run.
-You can, however, use pyinstaller and get an exe.
-Saved passwords land in Desktop called 'IceCream.txt'
+---
+
+## Setup
+
+Ensure you have Python 3.x installed on your system.
+
+1. Clone the repository or download the script.
+2. Install the required dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+## Usage
+
+Run the script using Python:
+  ```bash
+  python pass-swipe.py
+  ```
+
+The saved passwords will be written to a file named IceCream.txt on your Desktop.
